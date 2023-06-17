@@ -1,0 +1,30 @@
+body {
+    background: #62374e;
+}
+
+.wrapper {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    position: absolute;
+}
+
+.square.top-right {
+    right: 0
+}
+
+.square.bottom-left {
+    bottom: 0;
+}
+
+.square.bottom-right {
+    bottom: 0;
+    right: 0;
+}
